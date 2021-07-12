@@ -1,0 +1,50 @@
+.home {
+  max-width: 100vw;
+  margin-top: 5.3rem;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 23, 23);
+
+  &__showlist {
+    width: 90vw;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    .show_hide {
+      cursor: pointer;
+    }
+  }
+
+  &__imagedisplay {
+    width: 100vw;
+    color: white;
+    height: 90vh;
+
+    &_image {
+      img {
+        height: 80vh;
+      }
+    }
+  }
+
+  &__imagelistwrapper {
+    height: 110px;
+  }
+
+  &__imageslist {
+    display: flex;
+    width: 95vw;
+    justify-content: center;
+
+    &_item {
+      margin-left: 0.6rem;
+      img {
+        width: 100px;
+        border-radius: 7px;
+      }
+    }
+  }
+}

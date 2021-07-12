@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 3rem;
+  background-color: #fff;
+
+  box-shadow: 1px 1px 5px 3px #4c98fc93;
+  border-radius: 0.3rem;
+  .title {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
+  .has-account {
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    margin: 0.25rem 0 0.5rem 0;
+    .signin {
+      font-weight: bold;
+    }
+  }
+}
+
+form {
+  display: grid;
+  place-items: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.textfield {
+  width: 100%;
+  margin: 0.25rem 0 0.25rem 0;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 0.15rem solid #ccc;
+  border-radius: 0.3rem;
+  font-family: "Inter", sans-serif;
+}
+
+.signup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+  border: 0;
+  border-radius: 0.3rem;
+  background-color: #4c98fc;
+  color: #fefeff;
+  cursor: pointer;
+  .arrow {
+    font-size: 1.25rem;
+    text-align: right;
+    padding-bottom: 0.1rem;
+  }
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  input {
+    margin-right: 0.5rem;
+  }
+}
+
+.error {
+  color: red;
+}
